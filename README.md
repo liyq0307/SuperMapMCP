@@ -12,21 +12,23 @@ MCP Client和Server, 实现shapefile导入到数据库。
 ### 1.2 激活虚拟环境
 
 source .venv/bin/activate # linunx等
+
+
 .venv/bin/activate        # windows
 
-## 1.3 修改配置文件
+## 2.修改配置文件
 
 修改.env文件的内容为自己OpenAI对于内容
 
 ![alt text](image.png)
 
-## 2.修改Server中数据库信息
+## 3.修改Server中数据库信息
 
 ![alt text](image-1.png)
 
 需要用supermap组件或者桌面创建数据源！！
 
-## 3.运行
+## 4.运行
 
 uv run client.py server.py
 
