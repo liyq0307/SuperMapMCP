@@ -1,5 +1,8 @@
 # SuperMapMCP
 
+MCP Client和Server, 实现shapefile导入到数据库。
+
+
 ## 初始化环境
 
 ### 初始化supermap object java环境
